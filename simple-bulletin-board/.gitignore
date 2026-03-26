@@ -1,0 +1,29 @@
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.apt_generated_tests/
+
+# Spring Tool Suite
+.springBeans
+.sts4-cache/
+
+# H2 Database
+*.mv.db
+*.trace.db
+*.h2.db
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+application-local.properties
